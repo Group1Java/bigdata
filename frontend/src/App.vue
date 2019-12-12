@@ -23,6 +23,12 @@
           </b>
           <span class="mr-2">Sign In</span>
         </v-btn>
+        <v-btn text @click="redirect('/signup')">
+          <b>
+            <v-icon>mdi-clipboard-account</v-icon>
+          </b>
+          <span class="mr-2">Sign Up</span>
+        </v-btn>
       </span>
     </v-app-bar>
     <v-content>

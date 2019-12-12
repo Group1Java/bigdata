@@ -15,6 +15,7 @@ import pendingRequest from "@/views/PendingRequests.vue";
 import approvedRequest from "@/views/ApprovedRequests.vue";
 import rejectedRequest from "@/views/RejectedRequests.vue";
 import Editpassword from '../modules/Kiray/Editpassword.vue'
+import Signup from '../modules/Kiray/Signup.vue'
 Vue.use(VueRouter);
 /* eslint-disable */
 const routes = [
@@ -22,6 +23,11 @@ const routes = [
         path: "/",
         name: "login",
         component: Login
+    },
+    {
+        path: "/signup",
+        name: "signup",
+        component: Signup
     },
     {
         path: "/educator",
